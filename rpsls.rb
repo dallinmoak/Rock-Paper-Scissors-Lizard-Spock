@@ -8,10 +8,10 @@ plays = {
   "spock" => ["rock", "scissors"]
 }
 
-puts "lets play rock paper scissors spock!"
+puts "lets play rock paper scissors lizard spock!"
 done = false
 while !done
-  play = get_input("1..2..3..PLAY: ", ["rock", "paper", "sissors","lizard","spock"])
+  play = get_input("1..2..3..PLAY: ", ["rock", "paper", "scissors","lizard","spock"])
   comp_play = plays.key plays.values.sample 
   # comp_play = "paper"
   print "your play: #{play}\n"
